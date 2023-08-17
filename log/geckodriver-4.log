@@ -1,0 +1,27 @@
+1692294240303	geckodriver	INFO	Listening on 127.0.0.1:53419
+1692294243717	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53420" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofileeR2TvV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692294246087	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692294246301	Marionette	INFO	Listening on port 53427
+WebDriver BiDi listening on ws://127.0.0.1:53420
+Read port: 53427
+Read port: 53427
+1692294251060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53420/devtools/browser/3b7ca020-ca9f-46e2-b2f7-86fcc60ad642
+JavaScript error: https://www.n11.com/, line 3299: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.efilli.com/layouts/efilli.layouts.js, line 28: ChunkLoadError: Loading chunk 627 failed.
+(error: https://cdn.efilli.com/layouts/efilli.layouts.chunk.98d964ec.js)
+JavaScript error: , line 0: uncaught exception: undefined
+1692294282617	Marionette	INFO	Stopped listening on port 53427
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 184))
+1692294283150	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:205
+deleteSession()@WebDriverBiDi.sys.mjs:142
+stop()@WebDriverBiDi.sys.mjs:230
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:575
+[Parent 10128, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
